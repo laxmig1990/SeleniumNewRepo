@@ -9,5 +9,6 @@ import java.lang.reflect.Method;
 public class IAnnotationTransformerExample implements IAnnotationTransformer {
     public void transform(ITestAnnotation annotation, Class testClass, Constructor testConstructor, Method testMethod) {
         annotation.setRetryAnalyzer(AnalyserExample.class);
+        System.out.println("Changes for Pratice");
     }
 }
