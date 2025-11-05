@@ -23,6 +23,7 @@ public class HardAssertExample {
 
         Assert.assertEquals(title.getText(),"Swag Labs");
         Assert.assertTrue(loginbtn1.isDisplayed());
+        driver.close();
 
     }
 }

@@ -28,4 +28,8 @@ public class DependMethod {
     {
         System.out.println("Execute Method");
     }
+    public void Execte()
+    {
+        System.out.println("Execute Method");
+    }
 }
