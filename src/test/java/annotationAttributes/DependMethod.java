@@ -14,7 +14,7 @@ public class DependMethod {
     public void Launch()
     {
         System.out.println("Pass");
-        //Assert.assertTrue(false);
+       
     }
     @Test(dependsOnMethods = "Launch")
     public void HomePage()
