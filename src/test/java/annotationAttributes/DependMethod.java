@@ -31,5 +31,7 @@ public class DependMethod {
     public void Execte()
     {
         System.out.println("Execute Method");
+        driver.close();
     }
 }
+
